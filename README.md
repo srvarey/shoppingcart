@@ -1,3 +1,12 @@
+Specification defined at end.
+Some notes :-
+There are some junit tests
+Input is a csv file which may contain multiple lines
+System is capable of multiple pricing strategies
+
+
+SPECIFICTION....
+
 Step 1: Shopping cart
 * You are building a checkout system for a shop which only sells apples and 
 oranges.   
