@@ -1,8 +1,13 @@
+
 package hmrc;
+
+import strategies.ApplePriceStrategyStandard;
+import strategies.OrangePriceStrategyStandard;
+import strategies.PriceStrategy;
 
 
 /*
- * Step 1
+ * Step 2
  */
 
 
@@ -10,23 +15,41 @@ public class Orange extends Item implements CartItem
 {
 
 
-	Orange()
+
+	static PriceStrategy	strategy;
+
+
+	static
 	{
-		price = 0.25;
+		strategy = new OrangePriceStrategyStandard();
 	}
 
 
 
 
-	Orange(double price)
+	public Orange()
+	{
+		price = 0.25;
+
+	}
+
+
+
+
+	public Orange(double price)
 	{
 		setPrice(price);
 	}
 
 
-	public String getDescription() {
+
+
+	public String getDescription()
+	{
 		return "Orange";
 	}
+
+
 
 
 	public double myPrice()
@@ -34,4 +57,24 @@ public class Orange extends Item implements CartItem
 		System.out.println(String.format("The Orange price is %g", price));
 		return getPrice();
 	}
+
+
+
+
+	@Override
+	public void setStrategy(PriceStrategy s)
+	{
+		strategy = s;
+
+	}
+
+
+
+
+	@Override
+	public PriceStrategy getStrategy()
+	{
+		return strategy;
+	}
+
 }
