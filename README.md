@@ -1,7 +1,11 @@
 Specification defined at end.
+
 Some notes :-
-There are some junit tests
+
+There are some junit tests.
+
 Input is a csv file which may contain multiple lines
+
 System is capable of multiple pricing strategies
 
 
