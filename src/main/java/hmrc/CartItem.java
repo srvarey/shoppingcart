@@ -20,10 +20,10 @@ public interface CartItem
 
 
 
-	public void setStrategy(PriceStrategy s);
+	void setStrategy(PriceStrategy s);
 
 
 
 
-	public PriceStrategy getStrategy();
+	PriceStrategy getStrategy();
 }
