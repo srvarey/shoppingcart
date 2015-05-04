@@ -7,7 +7,7 @@ import strategies.PriceStrategy;
 
 
 /*
- * Step 2
+ * Step 1
  */
 
 
