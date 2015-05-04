@@ -3,27 +3,24 @@ package hmrc;
 
 import strategies.PriceStrategy;
 
-/*
- * Step 2
- */
 
 public interface CartItem
 {
 
-	double myPrice();
+	double myPrice();			//Step 1
 
 
 
 
-	String getDescription();
+	String getDescription();		//Step 1
 
 
 
 
-	void setStrategy(PriceStrategy s);
+	void setStrategy(PriceStrategy s);	//Step 2
 
 
 
 
-	PriceStrategy getStrategy();
+	PriceStrategy getStrategy();		//Step 2
 }
