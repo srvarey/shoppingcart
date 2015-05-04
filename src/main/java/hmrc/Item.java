@@ -4,29 +4,26 @@ package hmrc;
 import strategies.PriceStrategy;
 
 
-/*
- * Step 2
- */
 
 abstract public class Item
 {
 
-	double	price;
+	double	price;					// Step 1
 
 
 
 
-	abstract String getDescription();
+	abstract String getDescription();		// Step 1
 
 
 
 
-	abstract void setStrategy(PriceStrategy s);
+	abstract void setStrategy(PriceStrategy s);	// Step 2
 
 
 
 
-	abstract PriceStrategy getStrategy();
+	abstract PriceStrategy getStrategy();		// Step 2
 
 
 
