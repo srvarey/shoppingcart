@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Step 2
+ * Step 1
  */
 
 public class ReadCSV
