@@ -2,7 +2,7 @@
 package hmrc;
 
 /*
- * Step 2
+ * Step 1
  */
 
 public class CartItemFactory
