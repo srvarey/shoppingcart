@@ -9,19 +9,9 @@ import strategies.ApplePriceStrategyBuyOneGetOneFree;
 import strategies.OrangePriceStrategy3for2;
 import strategies.PriceStrategy;
 
-/**
- * 
- */
-
-
-
-
 /*
- * Step 2
- */
-
-
-
+Step 1
+*/
 
 public class Cart
 {
@@ -116,13 +106,7 @@ public class Cart
 
 
 
-	/*
-	 * 		OrangePriceStrategy3for2 strat = new OrangePriceStrategy3for2();
-
-			double total = strat.applyPriceStrategy(l);
-
-	 */
-
+	//Step 1
 	public double getTotalPrice_original(List<Item> items)
 	{
 		double total = 0.0;
@@ -137,7 +121,7 @@ public class Cart
 
 
 
-
+	//Step 2
 	public double getTotalPrice(List<Item> items)
 	{
 		double total = 0.0;
